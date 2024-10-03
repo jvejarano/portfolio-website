@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="styles\styles.css">
+    <script defer src="scripts\script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Jorge Vejarano</div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <img src="images\profile.jpg" alt="Jorge Vejarano" class="profile-pic">
+            <h1>Hola, soy Jorge Vejarano</h1>
+            <p>Junior Software Developer especializado en desarrollo web y móvil.</p>
+            <a href="#projects" class="btn">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Soy un Junior Software Developer de México, trabajando en desarrollo fullstack web y móvil. Me apasiona aprender cosas nuevas cada día y simplificar problemas complejos.</p>
+                <p>Siempre estoy buscando oportunidades para trabajar en proyectos innovadores y desafiantes, con el objetivo de mejorar como desarrollador y contribuir a soluciones que tengan un impacto positivo. Mi objetivo es colaborar en proyectos que mejoren la vida de las personas a través de la tecnología.</p>
+            </div>
+            <div class="contact-info">
+                <p><strong>Email:</strong> jvejarano@outlook.com</p>
+                <p><strong>Móvil:</strong> +591 78290880</p>
+                <p><strong>Ubicación:</strong> Trinidad, Bolivia</p>
+                <p><strong>Cumpleaños:</strong> 28 de enero de 1980</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I'm Doing Section -->
+    <section id="doing">
+        <h2>Lo que Estoy Haciendo</h2>
+        <div class="doing-container">
+            <div class="doing-item">
+                <span class="icon">&#x27A1;</span>
+                <h3>Automatización</h3>
+                <p>Desarrollo scripts utilizando Python y Bash para automatizar tareas repetitivas, optimizar flujos de trabajo y mejorar la eficiencia. Con estas herramientas, creo soluciones que aceleran procesos y reducen el esfuerzo manual, mejorando la productividad y la precisión.</p>
+            </div>
+            <div class="doing-item">
+                <span class="icon">&#x1F4BB;</span>
+                <h3>Desarrollo Web</h3>
+                <p>Creo sitios web dinámicos y responsivos, enfocados en proporcionar una experiencia de usuario fluida y funcionalidad robusta. Combinando habilidades de frontend y backend, ofrezco soluciones web intuitivas y efectivas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="images\project1.png" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto. Puedes hablar sobre las tecnologías utilizadas y el propósito del proyecto.</p>
+            </div>
+            <div class="project">
+                <img src="images\project2.png" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto. Puedes hablar sobre las tecnologías utilizadas y el propósito del proyecto.</p>
+            </div>
+            <!-- Agregar más proyectos según sea necesario -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si te interesa trabajar conmigo o simplemente quieres decir hola, puedes contactarme a través del siguiente formulario.</p>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+            <input type="email" id="email" name="email" placeholder="Tu Correo" required>
+            <textarea id="message" name="message" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jorge Vejarano. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
