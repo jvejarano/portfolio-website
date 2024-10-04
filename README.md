@@ -1,6 +1,6 @@
 # Portafolio Personal de Jorge Vejarano
 
-Este repositorio contiene el código fuente del portafolio personal de Jorge Vejarano, un Junior Software Developer especializado en desarrollo web y móvil. El portafolio está construido utilizando HTML, CSS, y JavaScript para proporcionar una experiencia de usuario fluida y atractiva.
+Este repositorio contiene el código fuente del portafolio personal de Jorge Vejarano, un Software Developer especializado en desarrollo web y móvil. El portafolio está construido utilizando HTML, CSS, y JavaScript para proporcionar una experiencia de usuario fluida y atractiva.
 
 ## Estructura del Proyecto
 
@@ -36,11 +36,13 @@ El portafolio incluye las siguientes características:
 ## Cómo Ejecutar el Proyecto
 
 1. Clona este repositorio:
+
    ```
    git clone https://github.com/tuusuario/portfolio-website.git
    ```
 
 2. Navega hasta la carpeta del proyecto:
+
    ```
    cd portfolio-website
    ```
@@ -62,4 +64,3 @@ Este portafolio fue desarrollado por Jorge Vejarano con el propósito de mostrar
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia MIT. Puedes ver el archivo [LICENSE](LICENSE) para más detalles.
-
