@@ -22,6 +22,9 @@
  *      que el mensaje ha sido enviado.
  *    - El formulario se reinicia después de enviar el mensaje.
  *
+ * 4. Iconos de redes sociales en la sección de "Redes Sociales":
+ *    - Se utilizan íconos de Font Awesome para representar cada red social.
+ *    - Esto mejora la apariencia visual y hace que los enlaces sean más reconocibles para los usuarios.
  */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -55,6 +58,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Form submission alert
     const contactForm = document.querySelector("#contact form");
+    if (contactForm) {
+        contactForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+            alert("¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.");
+            contactForm.reset();
+        });
+    }
+
+    // Add social media icons functionality
+    const socialLinks = document.querySelectorAll(".social-links a");
+    socialLinks.forEach(link => {
+        link.innerHTML = `<i class="fab ${link.getAttribute('data-icon')}"></i> ${link.textContent}`;
+    });
     contactForm.addEventListener("submit", (event) => {
         event.preventDefault();
         alert("¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.");

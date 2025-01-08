@@ -6,6 +6,9 @@
     <title>Portafolio Personal</title>
     <link rel="stylesheet" href="styles\styles.css">
     <script defer src="scripts\script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
+
 </head>
 <body>
     <!-- Header -->
@@ -25,7 +28,7 @@
         <div class="hero-content">
             <img src="images\profile.jpg" alt="Jorge Vejarano" class="profile-pic">
             <h1>Hola, soy Jorge Vejarano</h1>
-            <p>Software Developer especializado en desarrollo.</p>
+            <p>Software Developer especializado en desarrollo web.</p>
             <a href="#projects" class="btn">Ver mis proyectos</a>
         </div>
     </section>
@@ -35,7 +38,7 @@
         <h2>Sobre Mí</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>Soy Software Developer de Bolivia, trabajando en desarrollo fullstack web. Me apasiona aprender cosas nuevas cada día y simplificar problemas complejos.</p>
+                <p>Soy un Software Developer de Bolivia, trabajando en desarrollo fullstack web. Me apasiona aprender cosas nuevas cada día y simplificar problemas complejos.</p>
                 <p>Siempre estoy buscando oportunidades para trabajar en proyectos innovadores y desafiantes, con el objetivo de mejorar como desarrollador y contribuir a soluciones que tengan un impacto positivo. Mi objetivo es colaborar en proyectos que mejoren la vida de las personas a través de la tecnología.</p>
             </div>
             <div class="contact-info">
@@ -69,9 +72,10 @@
         <h2>Proyectos</h2>
         <div class="project-container">
             <div class="project">
-                <img src="images\project1.png" alt="Proyecto 1">
-                <h3>Proyecto 1</h3>
-                <p>Descripción breve del proyecto. Puedes hablar sobre las tecnologías utilizadas y el propósito del proyecto.</p>
+                <a href="https://jvejarano.github.io/Dolar-Binance-Api-Page/" target="_blank"><img src="images\project1.png" alt="Proyecto 1"></a>
+                <h3>Crypto - $BO</h3>
+                <!-- <h2>https://jvejarano.github.io/Dolar-Binance-Api-Page/</h2> -->
+                <p>Cotización del dólar estadounidense en pesos bolivianos según Binance. Html - CSS - Javascript </p>
             </div>
             <div class="project">
                 <img src="images\project2.png" alt="Proyecto 2">
@@ -82,16 +86,15 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact/Linktree Section -->
     <section id="contact">
-        <h2>Contacto</h2>
-        <p>Si te interesa trabajar conmigo o simplemente quieres decir hola, puedes contactarme a través del siguiente formulario.</p>
-        <form>
-            <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
-            <input type="email" id="email" name="email" placeholder="Tu Correo" required>
-            <textarea id="message" name="message" placeholder="Tu Mensaje" required></textarea>
-            <button type="submit" class="btn">Enviar</button>
-        </form>
+        <h2>Redes Sociales</h2>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/jvejarano" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/jvejarano" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://twitter.com/jvejarano" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <!-- Agregar más redes sociales según sea necesario -->
+        </div>
     </section>
 
     <!-- Footer -->
